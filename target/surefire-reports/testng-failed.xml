@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Amazon Login Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" name="Login Tests(failed)" verbose="0">
+    <classes>
+      <class name="AmazonLoginTestAdvanced">
+        <methods>
+          <include name="testInvalidEmailFormat"/>
+          <include name="testEmailInputField"/>
+          <include name="testEmptyEmailValidation"/>
+          <include name="testLoginPageElements"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCreateAccountLink"/>
+        </methods>
+      </class> <!-- AmazonLoginTestAdvanced -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+</suite> <!-- Failed suite [Amazon Login Automation Suite] -->
